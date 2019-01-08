@@ -58,10 +58,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LOWER] = LAYOUT_kc (
      F11 , F1 , F2 , F3 , F4 , F5 ,                F6 , F7 , F8 , F9 ,F10 ,F12 ,
-     TILD,____,____, UP ,____,____,               ____,____,____,____,____,____,
-     CAPS,____,LEFT,DOWN,RGHT,HOME,               PGUP,UNDS,PLUS,LCBR,RCBR,PIPE,
-     BL_S,____,MUTE,VOLD,VOLU,END ,____,     ____,PGDN,MPRV,MPLY,MNXT,____,____,
-                       ____,DEL ,____,         ____,INS ,____
+     TILD,____,____, UP ,____,____,               ____, 7  , 8  , 9  ,LCBR, AT ,
+     CAPS,____,LEFT,DOWN,RGHT,HOME,               PGUP, 4  , 5  , 6  ,RCBR,PIPE,
+     BL_S,____,MUTE,VOLD,VOLU,END ,____,     ____,PGDN, 1  , 2  , 3  ,____,____,
+                       ____,DEL ,____,         ____,INS , 0
   ),
 
   [_RAISE] = LAYOUT_kc (
